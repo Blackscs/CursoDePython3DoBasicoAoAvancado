@@ -1,7 +1,7 @@
-# \r\n = formas de quebrar a linha
-
-print(12, 34, sep="-") 
-print(56, 78, sep='-') 
+# \r\n = CRLF
+# \n = LF
+print(12, 34, sep="-", end="\r\n") 
+print(56, 78, sep='-', end='\n') 
 
 """
 print() = é uma função que exibe o argumento que é inserido nela 
